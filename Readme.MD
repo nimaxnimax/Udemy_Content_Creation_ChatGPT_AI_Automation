@@ -352,6 +352,26 @@ This command installs the OpenAI Python package, which you may use for interacti
 
 ChatGPT Content Creation Automation with Python - One-Click Magic
 
+1. **Obtain Your API Key:**
+   - Go to the OpenAI platform and obtain your API key. If you don't have one, you'll need to sign up and get access to the API.
+
+2. **Update `chatgpt_api_key.txt`:**
+   - Open the `chatgpt_api_key.txt` file using a text editor.
+   - Replace the existing content with your API key.
+   - Save and close the file.
+
+3. **Run the Automation Script:**
+   - Execute the `chatgpt_automation.pyc` script. You can do this by running the following command in the terminal or command prompt:
+     ```bash
+     python chatgpt_automation.pyc
+     ```
+     If you are using Python 3, use `python3` instead:
+     ```bash
+     python3 chatgpt_automation.pyc
+     ```
+
+   - The script should now run with your updated API key.
+
 
 **********
 
