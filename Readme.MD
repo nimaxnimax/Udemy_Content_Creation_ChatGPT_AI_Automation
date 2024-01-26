@@ -367,7 +367,9 @@ To install Python on Windows, you can follow these steps:
    - Visit the official Python website: [https://www.python.org/](https://www.python.org/).
    - Navigate to the "Downloads" section.
    - Click on the "View the full list of downloads" link.
-   - Choose the latest version of Python for Windows. As of my last update, Python 3.x is the latest stable version.
+   - Choose >> Python 3.11.x
+   - https://www.python.org/downloads/windows/
+   - https://www.python.org/ftp/python/3.11.7/python-3.11.7-amd64.exe
 
 2. **Download Python Installer:**
    - Scroll down to the files section and find the installer for Windows. Choose the one labeled "Windows Installer" (not the "Windows x86-64 executable installer" unless you are specifically using a 64-bit system).
@@ -389,8 +391,10 @@ To install Python on Windows, you can follow these steps:
 
 Now, Python is installed on your Windows system. You can use it for running Python scripts, including those related to ChatGPT content creation automation. Remember to install any additional Python packages or libraries your automation scripts may require using the `pip` package manager. For example:
 
+Note >> Install Python 3.11.x - not the latest!
+
 ```bash
-pip install openai
+pip install openai==0.28
 ```
 
 This command installs the OpenAI Python package, which you may use for interacting with the ChatGPT API. Adapt the libraries based on your specific needs for content creation automation.
@@ -410,7 +414,18 @@ ChatGPT Content Creation Automation with Python - One-Click Magic
    - Replace the existing content with your API key.
    - Save and close the file.
 
-3. **Run the Automation Script:**
+4. **Run the Automation Script:**
+   - Execute the `chatgpt_test.py` script. You can do this by running the following command in the terminal or command prompt:
+     ```bash
+     python chatgpt_test.py
+     ```
+     If you are using Python 3, use `python3` instead:
+     ```bash
+     python3 chatgpt_test.py
+     ```
+   - The script should now run with your updated API key.
+
+4. **Run the Automation Script:**
    - Execute the `chatgpt_automation.pyc` script. You can do this by running the following command in the terminal or command prompt:
      ```bash
      python chatgpt_automation.pyc
@@ -419,7 +434,6 @@ ChatGPT Content Creation Automation with Python - One-Click Magic
      ```bash
      python3 chatgpt_automation.pyc
      ```
-
    - The script should now run with your updated API key.
 
 
@@ -429,18 +443,21 @@ ChatGPT Content Creation Automation with Python - One-Click Magic
 
 ChatGPT Content Creation Automation on Linux - Installing Prerequisites
 
-On Ubuntu 20.04 or 22.04, Python is often pre-installed. However, you might want to install a specific version or ensure that you have the latest one. Here are the steps to install Python on Ubuntu:
+On Ubuntu 20.04 or 22.04, Python is often pre-installed. Install Python 3.11.x - not the latest! Here are the steps to install Python on Ubuntu:
 
 For Python 3:
 
 1. **Update Package List:**
    ```bash
-   sudo apt update
+   sudo apt update -y
+   sudo apt install software-properties-common -y
+   sudo add-apt-repository ppa:deadsnakes/ppa
+   sudo apt update -y
    ```
 
 2. **Install Python 3:**
    ```bash
-   sudo apt install python3
+   sudo apt install python3.11 -y
    ```
 
 3. **Verify Installation:**
@@ -492,10 +509,12 @@ Using a virtual environment is a good practice to isolate your Python projects a
    deactivate
    ```
 
+Note >> Install Python 3.11.x - not the latest!
+
 These steps should get you set up with Python on Ubuntu. You can then use this Python environment for your ChatGPT content creation automation. If you're working with the OpenAI GPT-3 API, you might also need to install the OpenAI Python library:
 
 ```bash
-pip install openai
+pip install openai==0.28
 ```
 
 Remember to replace `python` and `pip` with `python3` and `pip3` if you are using Python 3, as is common on Ubuntu. Adjust the Python version and package names based on your specific requirements and the Python version you prefer to use.
