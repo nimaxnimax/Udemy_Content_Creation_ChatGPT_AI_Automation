@@ -250,6 +250,8 @@ These are just examples, and in reality, target audiences can be even more speci
 
 **********
 
+![Alt text](image-3.png)
+
 About ChatGPT
 
 ChatGPT is a language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. It is designed to understand and generate human-like text based on the input it receives.
@@ -274,6 +276,8 @@ It's important to note that ChatGPT is a tool that should be used responsibly an
 
 
 **********
+
+![Alt text](image-4.png)
 
 How to Create Content with ChatGPT
 
