@@ -33,7 +33,7 @@ https://www.udemy.com/user/adrian-fischer-infotech/
 
 **********
 
-
+![Alt text](image-6.png)
 
 What is Content Creation and Content Marketing
 
@@ -59,6 +59,8 @@ Content creation is the process of producing various types of content, while con
 
 
 **********
+
+![Alt text](image-7.png)
 
 Why Content Creation and Content Marketing
 
@@ -311,6 +313,8 @@ Remember that ChatGPT is a powerful tool, but it has limitations. It's important
 
 
 **********
+
+![Alt text](image-5.png)
 
 About ChatGPT API and Automation
 
