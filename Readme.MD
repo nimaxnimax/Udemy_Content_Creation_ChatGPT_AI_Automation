@@ -1,4 +1,6 @@
 
+![Alt text](image.png)
+
 Udemy Course >> Content Creation with ChatGPT AI Automation One-Click Magic
 
 How to Create Content with ChatGPT AI-powered Tool and ChatGPT API Automation with Python for Marketing | How to Automate Content Creation for Blogs + YouTube + Instagram + Facebook + LinkedIn
