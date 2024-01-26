@@ -351,6 +351,8 @@ For the latest information, guidelines, and updates regarding the ChatGPT API, I
 
 **********
 
+![Alt text](image-8.png)
+
 Installing Prerequisites for ChatGPT Content Creation Automation on Windows
 
 To install Python on Windows, you can follow these steps:
@@ -390,6 +392,8 @@ This command installs the OpenAI Python package, which you may use for interacti
 
 **********
 
+![Alt text](image-10.png)
+
 ChatGPT Content Creation Automation with Python - One-Click Magic
 
 1. **Obtain Your API Key:**
@@ -414,6 +418,8 @@ ChatGPT Content Creation Automation with Python - One-Click Magic
 
 
 **********
+
+![Alt text](image-9.png)
 
 ChatGPT Content Creation Automation on Linux - Installing Prerequisites
 
