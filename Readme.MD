@@ -348,6 +348,12 @@ Here are key points about ChatGPT API and automation:
 
 For the latest information, guidelines, and updates regarding the ChatGPT API, I recommend checking the official OpenAI website and documentation.
 
+URL Links >>
+- https://chat.openai.com/auth/login
+- https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+- https://platform.openai.com/apps
+- https://platform.openai.com/api-keys
+
 
 **********
 
