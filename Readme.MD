@@ -379,7 +379,7 @@ ChatGPT Content Creation Automation on Linux - Installing Prerequisites
 
 On Ubuntu 20.04 or 22.04, Python is often pre-installed. However, you might want to install a specific version or ensure that you have the latest one. Here are the steps to install Python on Ubuntu:
 
-# For Python 3:
+For Python 3:
 
 1. **Update Package List:**
    ```bash
@@ -398,7 +398,7 @@ On Ubuntu 20.04 or 22.04, Python is often pre-installed. However, you might want
 
    This should display the installed Python 3 version.
 
-# For pip (Python Package Installer):
+For pip (Python Package Installer):
 
 1. **Install pip:**
    ```bash
@@ -412,7 +412,7 @@ On Ubuntu 20.04 or 22.04, Python is often pre-installed. However, you might want
 
    This should show the installed pip version.
 
-# Virtual Environment (Optional, but recommended):
+Virtual Environment (Optional, but recommended):
 
 Using a virtual environment is a good practice to isolate your Python projects and dependencies.
 
