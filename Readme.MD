@@ -430,9 +430,17 @@ ChatGPT Content Creation Automation with Python - One-Click Magic
      ```bash
      python chatgpt_automation.pyc
      ```
+     or
+     ```bash
+     python chatgpt_automation.py
+     ```
      If you are using Python 3, use `python3` instead:
      ```bash
      python3 chatgpt_automation.pyc
+     ```
+     or
+     ```bash
+     python3 chatgpt_automation.py
      ```
    - The script should now run with your updated API key.
 
